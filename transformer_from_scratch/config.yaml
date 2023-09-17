@@ -1,0 +1,15 @@
+config= 
+{ "attention_probs_dropout_prob": 0.01,
+  "hidden_act": "relu",
+  "hidden_size": 512,
+  "initializer_range": 0.02,
+  "intermediate_size": 2048,
+  "num_attention_heads": 8,
+  "num_hidden_layers": 6,
+  "pad_token_id": 0,
+  "num_epochs": 10,
+  "lr": "5e-3" ,
+  "train_batch_size": 2
+  "src_lng":"en"
+  "tgt_lng":"fr"
+}

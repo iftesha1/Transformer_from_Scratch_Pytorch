@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "transformer-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["iftesha-acog <iftesha@aganitha.ai>"]
+readme = "README.md"
+packages = [{include = "transformer_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bpemb = "^0.3.4"
+numpy = "^1.25.2"
+torch = "^2.0.1"
+pyyaml = "^6.0.1"
+mlflow = "^2.6.0"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
